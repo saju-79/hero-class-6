@@ -46,6 +46,9 @@ nav{
 .dark-3{
     color:#757575 ;
 }
+.dark-1{
+
+}
 .text-r{
     color: #FD6E0A;
 }
@@ -90,10 +93,100 @@ nav ul li a {
     justify-content: center;
 }
 .img{
-  width:300px;
-  height: 350px;
-  margin-right: 250px;
+  width: 680px;px;
+  height: 650px;
+  margin-right: 20px;
 }
+  /* main */
+  main{
+ max-width: 1111px;
+ margin: 0 auto;
+ background-color:#FFF8F3;
+ padding: 100px 150px;
+  }
 .s{
     margin: 50px;
 }
+.h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.text{
+    font-size: 15px;
+    color:#757575 ;
+}
+.about{
+    border-radius: 10px;
+    padding: 60px 100px;
+    border: 1px solid rgb(24, 22, 22);
+
+    }
+    .items{
+        /* display: flex; */
+    }
+    .about-item{
+     display: flex;
+     justify-content: space-around;
+    }
+    .mubin{
+      text-align: center;
+      margin: 0 auto;
+      padding: 100px 200px;
+      border-radius: 3px;
+      /* border: 1px solid red; */
+    }
+    .peragrap{
+    font-size: 15px;
+    color: #181818;
+    margin: 0 auto;
+
+    }
+    .abba{
+        text-align: left;
+        display: flex;
+        /* margin: 0 auto; */
+        justify-content:space-between;
+    }
+    .icon{
+        border-radius: 9px;
+        width: 267px;
+        height: 300px;
+        padding: 67px 77px;
+    }
+    .zihan{
+        font-size: 10px;
+    }
+    .icon:hover{
+        border: 1px solid rgb(0, 255, 34);
+        background-color: rgb(136, 126, 126);
+    }
+    .amma{
+        display: flex;
+        text-align: left;
+    }
+    .sanjida{
+        color: #757575;
+        font-size: 15px;
+    }
+    .shib{
+        color: #757575;
+    }
+    .zawad{
+        color: #474747;
+        font-weight: bold;
+    }
+    .siam{
+        background-color: #FD6E0A;
+        padding: 15px 30px;
+        font-weight: bold;
+        color: wheat;
+        border-radius: 5px;
+        font-size: 20px;
+        border: none;
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+    
+     
