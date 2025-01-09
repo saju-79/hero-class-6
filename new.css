@@ -3,11 +3,23 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
+body{
+    
+}
 .open {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  /* background-image: url(c/developer.png) ,url(c/header_bg.png); */
+  ba
+}
+header{
+    background-image: url(c/developer.png) ,url(c/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 350px;
+    background-size: contain;
+ 
 }
 nav{
     display: flex;
@@ -15,6 +27,7 @@ nav{
     justify-content: space-between;
     margin:  0px 200px;
     /* margin-top: px; */
+    /* background-image: url(c/developer.png) ,url(c/header_bg.png); */
 
 }
 .button{
@@ -55,4 +68,32 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
+}
+.baner{
+    display: flex;
+    position: 880px 200px;
+    justify-content: space-between;
+}
+
+
+.con{
+    padding: 18px 35px;
+    color: #FD6E0A;
+    border-radius: 5px;
+}
+.h{
+  font-size: 40px;
+}
+.p{
+    font-size: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+  width:300px;
+  height: 350px;
+  margin-right: 250px;
+}
+.s{
+    margin: 50px;
 }
